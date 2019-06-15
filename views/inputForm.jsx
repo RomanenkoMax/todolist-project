@@ -12,13 +12,13 @@ class InputForm extends React.Component {
                 <div className="form-group">
                     <label htmlFor="postName">
                         Название :
-                        <input className="form-control" type="text" name="postName"/>
+                        <input className="form-control" type="text" name="postName" required/>
                     </label>
                 </div>
                 <div className="form-group">
                     <label htmlFor="postBody">
                         Содержание :
-                        <textarea className="form-control" type="text" name="postBody"/>
+                        <textarea className="form-control" type="text" name="postBody" required/>
                     </label>
                 </div>
                 <div className="panel-body text-center">

@@ -2,6 +2,6 @@
     display: block;
     margin: 0 10px;
 }
-.table {
-    margin: 10px;
+button[type=submit] {
+    margin-right: 20px;
 }

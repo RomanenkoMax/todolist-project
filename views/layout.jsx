@@ -26,6 +26,7 @@ class LayoutTop extends React.Component {
             <body>
             <h2>Список заметок</h2>
             <InputForm/>
+            <br/>
             <MainPage result={this.props.result}/>
             <script src="/script.js"></script>
             </body>

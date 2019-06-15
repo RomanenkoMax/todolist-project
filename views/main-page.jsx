@@ -30,19 +30,13 @@ class MainPage extends React.Component {
     }
 
     render() {
-        // let table = '';
-        // let tableContent = this.props.result;
-        // tableContent.forEach(value => {
-        //     table += `<tr data-postId="${value._id}"><td>${value.title}</td><td>${value.body}</td>`
-        // });
-
         return (
             <table className="table table-condensed table-striped table-bordered">
                 <thead>
                 <tr>
                     <th>Название</th>
                     <th>Содержание</th>
-                    <th></th>
+                    <th>Действия</th>
                 </tr>
                 </thead>
                 <tbody>
