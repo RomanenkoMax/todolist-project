@@ -24,7 +24,7 @@ MongoClient.connect(db.url, { useNewUrlParser: true }, (err, client) => {
 
     require('./routes.js')(app, database); // импортируем роуты
 
-    app.listen(3000, () => { // назначаем порт для прослушивания
+    app.listen(process.env.PORT || 3000, () => { // назначаем порт для прослушивания
         console.log('Connected to '+ db.url);
         console.log('We are live on http://localhost:3000');
     });
